@@ -1,0 +1,12 @@
+.el-loading-spinner{
+    background-image:url('../img/loding.gif');
+    background-repeat: no-repeat;
+    background-size: 65px 80px;
+    height:100px;
+    width:100%;
+    background-position:center;
+    background-color: #fff;
+}
+.el-loading-spinner .circular {
+    display: none; 
+}

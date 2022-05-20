@@ -1,0 +1,759 @@
+@font-face {
+  font-family: 'Saberz';
+  src: url('../font/Saberz.ttf');
+}
+@font-face {
+  font-family: 'SansSerifBldFLF';
+  src: url('../font/SansSerifBldFLF.otf');
+}
+#app .background {
+  width: 100%;
+  height: auto;
+}
+#app .background .img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#app .background .img .kv_bg {
+  width: 100%;
+  height: auto;
+}
+#app .background .img .top {
+  display: flex;
+}
+#app .background .img .top .logo_nav {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  width: 85px;
+  height: auto;
+}
+#app .background .img .top .nav {
+  position: absolute;
+  top: 0px;
+  right: 30px;
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  font-family: Saberz;
+  font-size: 10px;
+}
+#app .background .img .top .nav .home_on {
+  margin-left: 15%;
+  width: 80%;
+  height: auto;
+}
+#app .background .img .center {
+  position: absolute;
+  top: 15%;
+  right: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#app .background .img .center .slogan {
+  width: 47%;
+  height: auto;
+}
+#app .background .img .btn {
+  position: absolute;
+  top: 29%;
+  right: 30px;
+  width: 100%;
+  height: 8.5%;
+  display: flex;
+  justify-content: center;
+}
+#app .background .img .btn .button {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#app .background .img .btn .button .button_1 {
+  margin-top: -5%;
+  margin-left: -3%;
+  width: 45%;
+  height: 100%;
+  background-image: url(../img/button_1_off.png);
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .background .img .btn .button .button_1 .span {
+  margin-top: -3%;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+}
+#app .background .img .btn .button .button_1:hover {
+  background-image: url(../img/button_1_on.png);
+}
+#app .background .img .btn .button .button_1:hover .span {
+  margin-top: -5%;
+}
+#app .background .img .btn .button .button_2 {
+  margin-top: -5%;
+  margin-right: -7%;
+  width: 45%;
+  height: 100%;
+  background-image: url(../img/button_2_off.png);
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .background .img .btn .button .button_2 .span {
+  margin-top: -3%;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+}
+#app .background .img .btn .button .button_2:hover {
+  background-image: url(../img/button_2_on.png);
+}
+#app .metaverse {
+  margin-top: -4px;
+  width: 100%;
+  height: auto;
+}
+#app .metaverse .img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#app .metaverse .img .part1_bg1 {
+  width: 100%;
+  height: auto;
+}
+#app .metaverse .img .kuang {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#app .metaverse .img .kuang .part1_kuang_1 {
+  position: absolute;
+  top: 5%;
+  width: 53%;
+  height: auto;
+}
+#app .metaverse .img .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#app .metaverse .img .bottom .part1_pic1 {
+  position: absolute;
+  top: 35%;
+  width: 63%;
+  height: auto;
+}
+#app .metaverse .img .content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+#app .metaverse .img .content .title {
+  font-family: Saberz;
+  font-size: 28px;
+  position: absolute;
+  top: 18%;
+  transform: scale(1.4);
+}
+#app .metaverse .img .content .box {
+  width: 32%;
+  font-family: SansSerifBldFLF;
+  font-size: 18px;
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+#app .metaverse .img .content .box .line {
+  margin-top: 3%;
+  transform: scale(0.9);
+}
+#app .role {
+  margin-top: -4px;
+  width: 100%;
+  height: auto;
+}
+#app .role .img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#app .role .img .part2_bg1 {
+  width: 100%;
+  height: auto;
+}
+#app .role .img .content .boy_pic1 {
+  z-index: 11;
+  width: 31%;
+  height: auto;
+  position: absolute;
+  top: 8%;
+  left: 22.5%;
+}
+#app .role .img .content .part2_bottom {
+  z-index: 8;
+  width: 31%;
+  height: auto;
+  position: absolute;
+  bottom: 27%;
+  left: 22.5%;
+}
+#app .role .img .content .boy_bg2 {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 18%;
+  left: 37%;
+}
+#app .role .img .bottom {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#app .role .img .bottom .box {
+  position: absolute;
+  bottom: 5%;
+  width: 53%;
+  height: 12%;
+  display: flex;
+}
+#app .role .img .bottom .box .box_1 {
+  position: relative;
+  width: 24%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_1 .part2_bg3 {
+  margin-top: -26%;
+  margin-left: -8%;
+  width: 130%;
+  height: 230%;
+}
+#app .role .img .bottom .box .box_1 .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_1 .img .women_pic3_s {
+  margin-left: 9%;
+  width: 92%;
+  transition: all 0.5s;
+}
+#app .role .img .bottom .box .box_1 .img:hover {
+  overflow: hidden;
+}
+#app .role .img .bottom .box .box_1 .img:hover .women_pic3_s {
+  transform: scale(1.1);
+}
+#app .role .img .bottom .box .box_1 .img_checked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_1 .img_checked .women_pic2_s {
+  margin-left: 9%;
+  margin-top: -21%;
+  width: 92%;
+}
+#app .role .img .bottom .box .box_1 .box_name {
+  z-index: 44;
+  position: absolute;
+  bottom: 1%;
+  left: 30%;
+  background-image: url(../img/part2_bg2.png);
+  width: 40%;
+  height: auto;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .role .img .bottom .box .box_1 .box_name .span {
+  transform: scale(0.7);
+}
+#app .role .img .bottom .box .box_2 {
+  margin-left: -1.5%;
+  width: 24%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_2 .part2_bg3 {
+  margin-top: -26%;
+  margin-left: 3%;
+  width: 130%;
+  height: 230%;
+}
+#app .role .img .bottom .box .box_2 .img {
+  position: absolute;
+  top: 0;
+  left: 28%;
+  width: 25%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_2 .img .women_pic3_s {
+  margin-left: 0%;
+  width: 88%;
+  transition: all 0.5s;
+}
+#app .role .img .bottom .box .box_2 .img:hover {
+  overflow: hidden;
+}
+#app .role .img .bottom .box .box_2 .img:hover .women_pic3_s {
+  transform: scale(1.1);
+}
+#app .role .img .bottom .box .box_2 .img_checked {
+  position: absolute;
+  top: 0;
+  left: 28%;
+  width: 25%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_2 .img_checked .women_pic2_s {
+  margin-left: 0%;
+  width: 88%;
+  margin-top: -20%;
+}
+#app .role .img .bottom .box .box_2 .box_name {
+  z-index: 44;
+  position: absolute;
+  bottom: 1%;
+  left: 33%;
+  background-image: url(../img/part2_bg2.png);
+  width: 10%;
+  height: auto;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .role .img .bottom .box .box_2 .box_name .span {
+  transform: scale(0.7);
+}
+#app .role .img .bottom .box .box_3 {
+  margin-left: 1%;
+  width: 24%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_3 .part2_bg3 {
+  margin-top: -26%;
+  margin-left: 4%;
+  width: 130%;
+  height: 230%;
+}
+#app .role .img .bottom .box .box_3 .img {
+  position: absolute;
+  top: 0;
+  left: 53%;
+  width: 20%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_3 .img .women_pic3_s {
+  margin-left: 0%;
+  width: 110%;
+  transition: all 0.5s;
+}
+#app .role .img .bottom .box .box_3 .img:hover {
+  overflow: hidden;
+}
+#app .role .img .bottom .box .box_3 .img:hover .women_pic3_s {
+  transform: scale(1.1);
+}
+#app .role .img .bottom .box .box_3 .img_checked {
+  position: absolute;
+  top: 0;
+  left: 53%;
+  width: 20%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_3 .img_checked .women_pic2_s {
+  margin-left: 0%;
+  width: 110%;
+  margin-top: -25%;
+}
+#app .role .img .bottom .box .box_3 .box_name {
+  z-index: 44;
+  position: absolute;
+  bottom: 1%;
+  left: 60%;
+  background-image: url(../img/part2_bg2.png);
+  width: 10%;
+  height: auto;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .role .img .bottom .box .box_3 .box_name .span {
+  transform: scale(0.7);
+}
+#app .role .img .bottom .box .box_4 {
+  margin-left: 1%;
+  width: 24%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_4 .part2_bg3 {
+  margin-top: -26%;
+  margin-left: 4%;
+  width: 130%;
+  height: 230%;
+}
+#app .role .img .bottom .box .box_4 .img {
+  position: absolute;
+  top: 0;
+  left: 78%;
+  width: 20%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_4 .img .women_pic3_s {
+  margin-left: 0%;
+  width: 110%;
+  transition: all 0.5s;
+}
+#app .role .img .bottom .box .box_4 .img:hover {
+  overflow: hidden;
+}
+#app .role .img .bottom .box .box_4 .img:hover .women_pic3_s {
+  transform: scale(1.1);
+}
+#app .role .img .bottom .box .box_4 .img_checked {
+  position: absolute;
+  top: 0;
+  left: 78%;
+  width: 20%;
+  height: 100%;
+}
+#app .role .img .bottom .box .box_4 .img_checked .women_pic2_s {
+  margin-left: 0%;
+  width: 110%;
+  margin-top: -25%;
+}
+#app .role .img .bottom .box .box_4 .box_name {
+  z-index: 44;
+  position: absolute;
+  bottom: 1%;
+  left: 83%;
+  background-image: url(../img/part2_bg2.png);
+  width: 10%;
+  height: auto;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .role .img .bottom .box .box_4 .box_name .span {
+  transform: scale(0.7);
+}
+#app .wrestle {
+  margin-top: -4px;
+  width: 100%;
+  height: auto;
+}
+#app .wrestle .img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#app .wrestle .img .part3_bg {
+  width: 100%;
+  height: auto;
+}
+#app .wrestle .img .content {
+  display: flex;
+  justify-content: center;
+}
+#app .wrestle .img .content .part_pic1 {
+  position: absolute;
+  bottom: 0;
+  width: 56%;
+  height: auto;
+}
+#app .wrestle .img .content .img {
+  position: absolute;
+  top: 10%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+#app .wrestle .img .content .text {
+  position: absolute;
+  top: 19%;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland {
+  margin-top: -4px;
+  width: 100%;
+  height: auto;
+}
+#app .mainland .img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#app .mainland .img .part4_bg {
+  width: 100%;
+  height: auto;
+}
+#app .mainland .img .content {
+  position: absolute;
+  top: 8%;
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
+#app .mainland .img .content .box {
+  position: relative;
+  width: 45%;
+  height: 100%;
+}
+#app .mainland .img .content .box .box_1 {
+  position: absolute;
+  left: 0;
+  bottom: -7%;
+}
+#app .mainland .img .content .box .box_1 .top {
+  margin-top: -152%;
+}
+#app .mainland .img .content .box .box_1 .top img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_1 .kuang img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_1 .text {
+  margin-top: -6%;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .box .box_2 {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+}
+#app .mainland .img .content .box .box_2 .top {
+  margin-top: -152%;
+}
+#app .mainland .img .content .box .box_2 .top img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_2 .kuang img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_2 .text {
+  margin-top: -6%;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .box .box_3 {
+  position: absolute;
+  left: 43%;
+  top: 5%;
+}
+#app .mainland .img .content .box .box_3 .top {
+  margin-top: -152%;
+}
+#app .mainland .img .content .box .box_3 .top img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_3 .kuang img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_3 .text {
+  margin-top: -6%;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .box .box_4 {
+  position: absolute;
+  right: 14%;
+  top: 25%;
+}
+#app .mainland .img .content .box .box_4 .top {
+  margin-top: -152%;
+}
+#app .mainland .img .content .box .box_4 .top img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_4 .kuang img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_4 .text {
+  margin-top: -6%;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .box .box_5 {
+  position: absolute;
+  right: -1.5%;
+  bottom: -7%;
+}
+#app .mainland .img .content .box .box_5 .top {
+  margin-top: -152%;
+}
+#app .mainland .img .content .box .box_5 .top img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_5 .kuang img {
+  width: 95%;
+  height: auto;
+}
+#app .mainland .img .content .box .box_5 .text {
+  margin-top: -6%;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .content {
+  margin-top: 11%;
+  width: 25%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+#app .mainland .img .content .content .img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#app .mainland .img .content .content .img .tips_landlords {
+  width: 90%;
+  height: auto;
+}
+#app .mainland .img .content .content .center {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+#app .mainland .img .content .content .center .text {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .content .btn {
+  margin-top: 15%;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+}
+#app .mainland .img .content .content .btn .button {
+  width: 30%;
+  height: 100%;
+  background-image: url(../img/button_1_off.png);
+  background-size: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#app .mainland .img .content .content .btn .button .span {
+  font-size: 12px;
+  margin-top: -1%;
+  color: #ffffff;
+  font-family: SansSerifBldFLF;
+}
+#app .mainland .img .content .content .btn .button:hover {
+  background-image: url(../img/button_1_on.png);
+}
+#app .mainland .img .content .content .btn .button:hover .span {
+  margin-top: -3%;
+}
+#app .laboratory {
+  margin-top: -4px;
+  width: 100%;
+  height: auto;
+}
+#app .laboratory .img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+#app .laboratory .img .part5_bg {
+  width: 100%;
+  height: auto;
+}
+#app .laboratory .img .content .part5_pic1 {
+  position: absolute;
+  top: 0;
+  left: 23%;
+  width: 30.3%;
+  height: auto;
+}
+#app .laboratory .img .content .kuang {
+  position: absolute;
+  top: 21%;
+  left: 52%;
+}
+#app .laboratory .img .content .kuang .part5_kuang {
+  width: 97%;
+  height: auto;
+}
+#app .laboratory .img .content .title {
+  position: absolute;
+  top: 29%;
+  left: 54%;
+}
+#app .laboratory .img .content .title .shiyanshi {
+  width: 95%;
+  height: auto;
+}
+#app .laboratory .img .content .text_1 {
+  position: absolute;
+  top: 40%;
+  left: 54%;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: SansSerifBldFLF;
+}
+#app .laboratory .img .content .text_2 {
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: SansSerifBldFLF;
+}
